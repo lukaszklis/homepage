@@ -11,6 +11,29 @@
   text-align: center;
 }
 
+.c-header::before {
+  height: 44%;
+  background-position: 50% 100%;
+  background-size: cover;
+  background-image: url(../images/rectangle-party-small.svg);
+  background-repeat: no-repeat;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+@media (--bp-medium) {
+  .c-header::before {
+    background-image: url(../images/rectangle-party-alt.svg);
+    background-position: 50%;
+    background-size: contain;
+    height: 60%;
+  }
+}
+
 .c-header__bar {
   background-color: var(--c-mint);
   height: .75rem;
@@ -19,6 +42,11 @@
   position: relative;
   width: 52%;
   z-index: 1;
+}
+
+.c-header__content {
+  position: relative;
+  z-index: 2;
 }
 
 .c-header__intro {
@@ -48,5 +76,6 @@
   .c-header__intro {
     font-size: 2.75rem;
     line-height: 1.22;
+    width: auto;
   }
 }

@@ -9,3 +9,10 @@
     margin: 7.625rem 1.625rem 1.625rem;
   }
 }
+
+@media (--bp-huge) {
+  .c-contact p {
+    font-size: 2rem;
+    margin: 10.625rem 2rem 1.625rem;
+  }
+}

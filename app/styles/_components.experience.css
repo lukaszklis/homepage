@@ -36,10 +36,9 @@
   .c-experience__items {
     margin-left: 3rem;
   }
-}
 
-@media (--bp-huge) {
   .c-experience__item {
+    background-position: 0 1rem;
     font-size: 2rem;
   }
 }
