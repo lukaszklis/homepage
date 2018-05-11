@@ -139,6 +139,16 @@
   }
 }
 
+@media (--bp-big) {
+  .c-headline--contact br:first-of-type {
+    display: none;
+  }
+
+  .c-headline--contact::before {
+    height: 24.25rem;
+  }
+}
+
 @media (--bp-huge) {
   .c-headline--contact {
     font-size: 12.5rem;

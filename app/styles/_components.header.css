@@ -33,7 +33,18 @@
   }
 }
 
+@media (--bp-medium) {
+  .c-header__intro {
+    margin: auto;
+    width: 75%;
+  }
+}
+
 @media (--bp-huge) {
+  .c-header {
+    padding-bottom: 22.75rem;
+  }
+
   .c-header__intro {
     font-size: 2.75rem;
     line-height: 1.22;

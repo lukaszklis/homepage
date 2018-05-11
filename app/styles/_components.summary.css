@@ -14,7 +14,6 @@
 }
 
 .c-summary__figure {
-  max-width: 18.75rem;
   position: absolute;
   top: -6rem;
   width: 10rem;
@@ -44,5 +43,12 @@
 @media (--bp-medium) {
   .c-summary__text {
     font-size: 1.75rem;
+  }
+}
+
+@media (--bp-huge) {
+  .c-summary__figure {
+    top: -12rem;
+    width: 18.75rem;
   }
 }

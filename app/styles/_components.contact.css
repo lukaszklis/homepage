@@ -1,3 +1,11 @@
+@import "_settings.breakpoints.css";
+
 .c-contact p {
   font-size: 1.5rem;
+}
+
+@media (--bp-big) {
+  .c-contact p {
+    margin: 7.625rem 1.625rem 1.625rem;
+  }
 }
