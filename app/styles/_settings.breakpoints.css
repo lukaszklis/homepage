@@ -2,4 +2,5 @@
 @custom-media --bp-small (min-width: 31.25rem); /* 500px */
 @custom-media --bp-medium (min-width: 37.5rem); /* 600px */
 @custom-media --bp-big (min-width: 50rem); /* 800px */
+@custom-media --bp-x-big (min-width: 62.5rem); /* 1000px */
 @custom-media --bp-huge (min-width: 87.5rem); /* 1400px */

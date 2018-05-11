@@ -94,6 +94,17 @@
   }
 }
 
+@media (--bp-x-big) {
+  .c-headline--header {
+    margin-bottom: 15rem;
+    margin-top: 15rem;
+  }
+
+  .c-headline--header::after {
+    bottom: -15rem;
+  }
+}
+
 .c-headline--experience {
   color: var(--c-blue-bright);
   margin-top: 11.25rem;
