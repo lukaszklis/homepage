@@ -16,12 +16,21 @@
   height: .75rem;
   max-width: 26.875rem;
   min-width: 12.5rem;
+  position: relative;
   width: 52%;
+  z-index: 1;
 }
 
 .c-header__intro {
   font-size: 1.5rem;
   line-height: 1.33;
+}
+
+@media (--bp-small) {
+  .c-header__intro {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
 
 @media (--bp-huge) {

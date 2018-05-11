@@ -74,6 +74,12 @@
 
 @media (--bp-small) {
   .c-headline--header::after {
+    bottom: -26vw;
+  }
+}
+
+@media (--bp-medium) {
+  .c-headline--header::after {
     background-image: url(../images/rectangle-party-alt.svg);
     margin-left: -1rem;
     left: 0;
@@ -120,6 +126,16 @@
 @media (--bp-x-small) {
   .c-headline--contact {
     font-size: 6.25rem;
+  }
+}
+
+@media (--bp-small) {
+  .c-headline--contact {
+    font-size: 9rem;
+  }
+
+  .c-headline--contact::before {
+    top: 6.9rem;
   }
 }
 

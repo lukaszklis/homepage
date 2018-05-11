@@ -20,6 +20,10 @@
   margin-top: 11.75rem;;
 }
 
+.c-decoration--bottom .c-decoration__item--circle {
+  width: 100%;
+}
+
 .c-decoration--bottom .c-decoration__item--arrow {
   align-self: center;
   margin: 1.5rem 0 9.625rem;
