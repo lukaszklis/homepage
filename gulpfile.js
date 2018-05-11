@@ -6,6 +6,7 @@ const runSequence = require('run-sequence');
 const autoprefixer = require('autoprefixer');
 const postcssImport = require('postcss-import');
 const postcssCustomMedia = require('postcss-custom-media');
+const cachebust = require('gulp-cache-bust');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -64,6 +65,7 @@ gulp.task('html', ['styles', 'scripts'], () => {
       removeScriptTypeAttributes: true,
       removeStyleLinkTypeAttributes: true
     })))
+    .pipe(cachebust({type: 'timestamp'}))
     .pipe(gulp.dest('dist'));
 });
 
