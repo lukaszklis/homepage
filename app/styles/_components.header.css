@@ -1,0 +1,23 @@
+.c-header {
+  align-items: center;
+  background-color: var(--c-blue-bright);
+  color: var(--c-white);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 14.75rem;
+  position: relative;
+  text-align: center;
+}
+
+.c-header__bar {
+  background-color: var(--c-mint);
+  height: .75rem;
+  max-width: 26.875rem;
+  min-width: 12.5rem;
+  width: 52%;
+}
+
+.c-header__intro {
+  font-size: 1.5rem;
+  line-height: 1.33;
+}

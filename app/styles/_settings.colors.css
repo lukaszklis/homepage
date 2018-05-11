@@ -1,0 +1,10 @@
+:root {
+  --c-black: rgb(40, 40, 40);
+  --c-blue: rgb(29, 45, 148);
+  --c-blue-bright: rgb(18, 88, 248);
+  --c-gray: rgb(188, 188, 188);
+  --c-gray-bright: rgb(231, 231, 231);
+  --c-mint: rgb(102, 196, 160);
+  --c-orange: rgb(229, 81, 47);
+  --c-white: rgb(255, 255, 255);
+}

@@ -1,0 +1,45 @@
+@import "_settings.breakpoints.css";
+
+.c-experience {
+}
+
+.c-experience__items {
+  margin: 3.25rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.c-experience__item {
+  background-image: url(../images/arrow-right.svg);
+  background-position: 0 2px;
+  background-repeat: no-repeat;
+  line-height: 1.55;
+  padding-left: 3.25rem;
+}
+
+.c-experience__item + .c-experience__item {
+  margin-top: 1.5rem;
+}
+
+.c-experience__time {
+  color: var(--c-gray);
+}
+
+@media (--bp-small) {
+  .c-experience {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (--bp-medium) {
+  .c-experience__items {
+    margin-left: 3rem;
+  }
+}
+
+@media (--bp-huge) {
+  .c-experience__item {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,8 @@
+.c-copyright {
+  box-shadow: 0 3rem var(--c-blue),
+              0 6rem var(--c-blue),
+              0 9rem var(--c-blue);
+  margin: auto auto 9rem;
+  max-width: 26.875rem;
+  text-align: center;
+}

@@ -1,0 +1,106 @@
+@import "_settings.breakpoints.css";
+
+:root {
+  --headline-header-size: 16.75rem;
+  --headline-header-decor-size: 19.375rem;
+}
+
+.c-headline {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.c-headline__text {
+  position: relative;
+  z-index: 2;
+}
+
+@media (--bp-x-small) {
+  .c-headline {
+    font-size: 3.75rem;
+  }
+}
+
+@media (--bp-medium) {
+  .c-headline {
+    font-size: 5rem;
+  }
+}
+
+.c-headline--header {
+  margin-bottom: 12.5rem;
+  margin-top: 12.5rem;
+  position: relative;
+}
+
+.c-headline--header::before {
+  background-color: var(--c-blue);
+  box-shadow: 0 .125rem 6.25rem 0 var(--c-blue);
+  content: " ";
+  height: var(--headline-header-size);
+  margin-left: calc(var(--headline-header-size) / 2 - var(--headline-header-size));
+  margin-top: calc(var(--headline-header-size) / 2 - var(--headline-header-size));
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: var(--headline-header-size);
+}
+
+.c-headline--header::after {
+  background-image: url(../images/rectangle-party-small.svg);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: -34vw;
+  content: " ";
+  height: 200vw;
+  margin-left: calc(var(--headline-header-decor-size) / 2 - var(--headline-header-decor-size));
+  position: absolute;
+  right: 0;
+  width: var(--headline-header-decor-size);
+  left: 50%;
+}
+
+@media (--bp-small) {
+  .c-headline--header::after {
+    background-image: url(../images/rectangle-party-alt.svg);
+    margin-left: -1rem;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media (--bp-medium) {
+  .c-headline--header::after {
+    /* background-image: url(../images/rectangle-party.svg); */
+    bottom: -10rem;
+  }
+}
+
+.c-headline--experience {
+  color: var(--c-blue-bright);
+  margin-top: 11.25rem;
+}
+
+.c-headline--contact {
+  font-size: 5.25rem;
+  padding: 1.625rem;
+  line-height: 1;
+  position: relative;
+}
+
+.c-headline--contact::before {
+  border: .75rem solid var(--c-blue-bright);
+  bottom: 0;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 4.5rem;
+}
+
+@media (--bp-x-small) {
+  .c-headline--contact {
+    font-size: 6.25rem;
+  }
+}

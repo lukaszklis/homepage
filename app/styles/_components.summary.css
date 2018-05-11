@@ -1,0 +1,48 @@
+@import "_settings.breakpoints.css";
+
+.c-summary {
+  align-items: center;
+  background-color: var(--c-mint);
+  color: var(--c-white);
+  display: flex;
+  flex-direction: column;
+  margin-top: -5.375rem;
+  padding: 6.875rem 2rem;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.c-summary__figure {
+  max-width: 18.75rem;
+  position: absolute;
+  top: -6rem;
+  width: 10rem;
+}
+
+.c-summary__text {
+  font-size: 1.5rem;
+}
+
+.c-summary__link {
+  color: var(--c-black);
+}
+
+.c-summary__link--past {
+  color: var(--c-white);
+  text-decoration: line-through;
+}
+
+@media (--bp-small) {
+  .c-summary__text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 22rem;
+  }
+}
+
+@media (--bp-medium) {
+  .c-summary__text {
+    font-size: 1.75rem;
+  }
+}

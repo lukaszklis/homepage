@@ -1,0 +1,27 @@
+:root {
+  --decoration-summary-size: 11.5rem;
+}
+
+.c-decoration {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-decoration--summary {
+  bottom: calc((var(--decoration-summary-size) - var(--decoration-summary-size) / 2) - var(--decoration-summary-size));
+  margin-left: calc(var(--decoration-summary-size) / 2 - var(--decoration-summary-size));
+  margin-top: calc(var(--decoration-summary-size) / 2);
+  left: 50%;
+  position: absolute;
+  width: var(--decoration-summary-size);
+}
+
+.c-decoration--bottom {
+  margin-top: 11.75rem;;
+}
+
+.c-decoration--bottom .c-decoration__item--arrow {
+  align-self: center;
+  margin: 1.5rem 0 9.625rem;
+  width: 50%;
+}

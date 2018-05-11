@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'visuelt';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/visuelt-regular.woff2) woff2,
+       url(../fonts/visuelt-regular.woff) woff;
+}
+
+@font-face {
+  font-family: 'visuelt';
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/visuelt-medium.woff2) woff2,
+       url(../fonts/visuelt-medium.woff) woff;
+}
