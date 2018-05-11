@@ -1,3 +1,5 @@
+@import "_settings.breakpoints.css";
+
 :root {
   --decoration-summary-size: 11.5rem;
 }
@@ -28,4 +30,10 @@
   align-self: center;
   margin: 1.5rem 0 9.625rem;
   width: 50%;
+}
+
+@media (--bp-huge) {
+  .c-decoration--bottom .c-decoration__item--arrow {
+    margin-top: 4rem;
+  }
 }
