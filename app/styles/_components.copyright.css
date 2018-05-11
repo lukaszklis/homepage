@@ -1,8 +1,13 @@
+:root {
+  --copyright-gap-base: 4rem;
+  --copyright-gap: 3rem;
+}
+
 .c-copyright {
-  box-shadow: 0 3rem var(--c-blue),
-              0 6rem var(--c-blue),
-              0 9rem var(--c-blue);
-  margin: auto auto 9rem;
+  box-shadow: 0 var(--copyright-gap-base) var(--c-blue-bright),
+              0 calc(var(--copyright-gap-base) + var(--copyright-gap)) var(--c-blue-bright),
+              0 calc(var(--copyright-gap-base) + var(--copyright-gap) * 2) var(--c-blue-bright);
+  margin: auto auto calc(var(--copyright-gap-base) + var(--copyright-gap) * 2);
   max-width: 26.875rem;
   text-align: center;
 }

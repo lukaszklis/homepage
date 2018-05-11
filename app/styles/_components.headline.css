@@ -7,6 +7,7 @@
 
 .c-headline {
   font-size: 3.5rem;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -24,6 +25,16 @@
 @media (--bp-medium) {
   .c-headline {
     font-size: 5rem;
+  }
+}
+
+@media (--bp-huge) {
+  :root {
+    --headline-header-size: 37.5rem;
+  }
+
+  .c-headline {
+    font-size: 12.5rem;
   }
 }
 
@@ -82,6 +93,12 @@
   margin-top: 11.25rem;
 }
 
+@media (--bp-huge) {
+  .c-headline--experience {
+    font-size: 8.75rem;
+  }
+}
+
 .c-headline--contact {
   font-size: 5.25rem;
   padding: 1.625rem;
@@ -97,10 +114,17 @@
   position: absolute;
   right: 0;
   top: 4.5rem;
+  z-index: -1;
 }
 
 @media (--bp-x-small) {
   .c-headline--contact {
     font-size: 6.25rem;
+  }
+}
+
+@media (--bp-huge) {
+  .c-headline--contact {
+    font-size: 12.5rem;
   }
 }
