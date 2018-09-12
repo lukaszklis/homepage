@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="151px" height="162px" viewBox="0 0 151 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="website-380" transform="translate(-113.000000, -3067.000000)" fill="#E7E7E7">
-            <path d="M188.430343,3123.17337 L188.569657,3123.17337 L188.5,3123.10372 L188.430343,3123.17337 Z M168.98875,3142.61497 L141.801896,3169.80182 L113.876891,3141.87682 L160.574995,3095.17871 L160.36738,3094.9711 L188.292385,3067.04609 L188.5,3067.25371 L188.707615,3067.04609 L216.63262,3094.9711 L216.425005,3095.17871 L263.123109,3141.87682 L235.198104,3169.80182 L208.480671,3143.08439 L208.480671,3229 L168.98875,3229 L168.98875,3142.61497 Z" id="Combined-Shape"></path>
-        </g>
-    </g>
-</svg>
+<svg width="151" height="162" xmlns="http://www.w3.org/2000/svg"><path d="M75.43 56.173h.14l-.07-.07-.07.07zM55.99 75.615l-27.187 27.187L.877 74.877l46.698-46.698-.208-.208L75.292.046l.208.208.208-.208 27.925 27.925-.208.208 46.698 46.698-27.925 27.925-26.717-26.718V162H55.989V75.615z" fill="#E7E7E7" fill-rule="evenodd"/></svg>

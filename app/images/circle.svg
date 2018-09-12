@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="329px" height="329px" viewBox="0 0 329 329" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Oval 3</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="website-380" transform="translate(-25.000000, -2714.000000)" fill="#66C4A0">
-            <circle id="Oval-3" cx="189.5" cy="2878.5" r="164.5"></circle>
-        </g>
-    </g>
-</svg>
+<svg width="329" height="329" xmlns="http://www.w3.org/2000/svg"><circle cx="189.5" cy="2878.5" r="164.5" transform="translate(-25 -2714)" fill="#66C4A0" fill-rule="evenodd"/></svg>
