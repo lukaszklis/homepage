@@ -1,7 +1,8 @@
 @import "_settings.breakpoints.css";
 
 :root {
-  --decoration-summary-size: 11.5rem;
+  --decoration-summary-height: 11.1875rem;
+  --decoration-summary-width: 4.9375rem;
 }
 
 .c-decoration {
@@ -10,12 +11,12 @@
 }
 
 .c-decoration--summary {
-  bottom: calc((var(--decoration-summary-size) - var(--decoration-summary-size) / 2) - var(--decoration-summary-size));
-  margin-left: calc(var(--decoration-summary-size) / 2 - var(--decoration-summary-size));
-  margin-top: calc(var(--decoration-summary-size) / 2);
+  bottom: calc((var(--decoration-summary-height) - var(--decoration-summary-height) / 2) - var(--decoration-summary-height));
+  margin-left: calc(var(--decoration-summary-width) / 2 - var(--decoration-summary-width));
+  margin-top: calc(var(--decoration-summary-height) / 2);
   left: 50%;
   position: absolute;
-  width: var(--decoration-summary-size);
+  width: var(--decoration-summary-width);
 }
 
 .c-decoration--bottom {

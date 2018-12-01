@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="A frontend developer based in Berlin, Germany. Specializes in building and maintaining large web applications.">
@@ -59,7 +59,15 @@
           <a class="c-summary__link" href="https://cssclass.es" target="_blank" rel="noopener">CSSclasses</a>.
         </p>
         <div class="c-decoration c-decoration--summary">
-          <img src="images/rectangle-skewed.svg">
+          <svg viewBox="0 0 79 179">
+            <image height="179px"
+                   width="79px"
+                   xlink:href="images/rectangle-skewed.svg">
+            </image>
+          </svg>
+          <link href="images/rectangle-skewed.svg"
+                rel="preload"
+                as="image">
         </div>
       </section>
 
@@ -100,10 +108,28 @@
     <footer>
       <div class="l-container">
         <div class="c-decoration c-decoration--bottom">
-          <img class="c-decoration__item c-decoration__item--circle"
-               src="images/circle.svg">
-          <img class="c-decoration__item c-decoration__item--arrow"
-               src="images/arrow.svg">
+          <div class="c-decoration__item c-decoration__item--circle">
+            <svg viewBox="0 0 329 329">
+              <image height="329px"
+                     width="329px"
+                     xlink:href="images/circle.svg">
+              </image>
+            </svg>
+            <link href="images/circle.svg"
+                  rel="preload"
+                  as="image">
+          </div>
+          <div class="c-decoration__item c-decoration__item--arrow">
+            <svg viewBox="0 0 151 162">
+              <image height="162px"
+                     width="151px"
+                     xlink:href="images/arrow.svg">
+              </image>
+            </svg>
+            <link href="images/arrow.svg"
+                  rel="preload"
+                  as="image">
+          </div>
         </div>
       </div>
       <p class="c-copyright">Design by <a href="http://nicolaszimmel.com" target="_blank">Nicolas Zimmel</a></p>
