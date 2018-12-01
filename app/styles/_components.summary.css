@@ -2,7 +2,7 @@
 
 .c-summary {
   align-items: center;
-  background-color: var(--c-mint);
+  background-color: var(--c-blue);
   color: var(--c-white);
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
 }
 
 .c-summary__link {
-  color: var(--c-black);
+  color: var(--c-mint);
 }
 
 @media (--bp-small) {
