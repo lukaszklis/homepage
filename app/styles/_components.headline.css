@@ -83,7 +83,7 @@
 }
 
 .c-headline--contact::before {
-  border: .75rem solid var(--c-blue-bright);
+  border: .75rem solid var(--c-mint);
   bottom: 0;
   content: " ";
   left: 0;
