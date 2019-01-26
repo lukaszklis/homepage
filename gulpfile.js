@@ -59,7 +59,7 @@ gulp.task("html", ["styles", "scripts"], () => {
         })
       )
     )
-    .pipe($.cachebust({ type: "timestamp" }))
+    .pipe($.cacheBust({ type: "timestamp" }))
     .pipe(gulp.dest("dist"));
 });
 
