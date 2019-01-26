@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'visuelt';
+  font-family: "visuelt";
   font-style: normal;
   font-display: swap;
   font-weight: normal;
-  src: url(../fonts/visuelt-regular.woff2) format('woff2'),
-       url(../fonts/visuelt-regular.woff) format('woff');
+  src: url(../fonts/visuelt-regular.woff2) format("woff2"),
+    url(../fonts/visuelt-regular.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'visuelt';
+  font-family: "visuelt";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url(../fonts/visuelt-medium.woff2) format('woff2'),
-       url(../fonts/visuelt-medium.woff) format('woff');
+  src: url(../fonts/visuelt-medium.woff2) format("woff2"),
+    url(../fonts/visuelt-medium.woff) format("woff");
 }

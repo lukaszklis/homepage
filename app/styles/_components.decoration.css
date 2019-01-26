@@ -11,8 +11,13 @@
 }
 
 .c-decoration--summary {
-  bottom: calc((var(--decoration-summary-height) - var(--decoration-summary-height) / 2) - var(--decoration-summary-height));
-  margin-left: calc(var(--decoration-summary-width) / 2 - var(--decoration-summary-width));
+  bottom: calc(
+    (var(--decoration-summary-height) - var(--decoration-summary-height) / 2) -
+      var(--decoration-summary-height)
+  );
+  margin-left: calc(
+    var(--decoration-summary-width) / 2 - var(--decoration-summary-width)
+  );
   margin-top: calc(var(--decoration-summary-height) / 2);
   left: 50%;
   position: absolute;
@@ -20,7 +25,7 @@
 }
 
 .c-decoration--bottom {
-  margin-top: 11.75rem;;
+  margin-top: 11.75rem;
 }
 
 .c-decoration--bottom .c-decoration__item--circle {

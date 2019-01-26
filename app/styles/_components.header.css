@@ -36,7 +36,7 @@
 
 .c-header__bar {
   background-color: var(--c-mint);
-  height: .75rem;
+  height: 0.75rem;
   max-width: 26.875rem;
   min-width: 12.5rem;
   position: relative;

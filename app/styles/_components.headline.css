@@ -46,11 +46,15 @@
 
 .c-headline--header::before {
   background-color: var(--c-blue);
-  box-shadow: 0 .125rem 6.25rem 0 var(--c-blue);
+  box-shadow: 0 0.125rem 6.25rem 0 var(--c-blue);
   content: " ";
   height: var(--headline-header-size);
-  margin-left: calc(var(--headline-header-size) / 2 - var(--headline-header-size));
-  margin-top: calc(var(--headline-header-size) / 2 - var(--headline-header-size));
+  margin-left: calc(
+    var(--headline-header-size) / 2 - var(--headline-header-size)
+  );
+  margin-top: calc(
+    var(--headline-header-size) / 2 - var(--headline-header-size)
+  );
   left: 50%;
   position: absolute;
   top: 50%;
@@ -82,7 +86,7 @@
 }
 
 .c-headline--contact::before {
-  border: .75rem solid var(--c-mint);
+  border: 0.75rem solid var(--c-mint);
   bottom: 0;
   content: " ";
   left: 0;
