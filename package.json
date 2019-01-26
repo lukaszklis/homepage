@@ -35,19 +35,6 @@
     "serve": "gulp serve",
     "serve:dist": "gulp serve:dist"
   },
-  "eslintConfig": {
-    "env": {
-      "es6": true,
-      "node": true,
-      "browser": true
-    },
-    "rules": {
-      "quotes": [
-        2,
-        "single"
-      ]
-    }
-  },
   "dependencies": {
     "normalize-css": "^2.3.1"
   }
