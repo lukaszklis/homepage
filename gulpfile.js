@@ -38,19 +38,6 @@ gulp.task("scripts", () => {
     .pipe(reload({ stream: true }));
 });
 
-function lint(files) {
-  return gulp
-    .src(files)
-    .pipe($.eslint({ fix: true }))
-    .pipe(reload({ stream: true, once: true }))
-    .pipe($.eslint.format())
-    .pipe($.if(!browserSync.active, $.eslint.failAfterError()));
-}
-
-gulp.task("lint", () => {
-  return lint("app/scripts/**/*.js").pipe(gulp.dest("app/scripts"));
-});
-
 gulp.task("html", ["styles", "scripts"], () => {
   return gulp
     .src("app/*.html")
@@ -132,7 +119,7 @@ gulp.task("serve:dist", ["default"], () => {
   });
 });
 
-gulp.task("build", ["lint", "html", "images", "fonts", "extras"], () => {
+gulp.task("build", ["html", "images", "fonts", "extras"], () => {
   return gulp.src("dist/**/*").pipe($.size({ title: "build", gzip: true }));
 });
 
