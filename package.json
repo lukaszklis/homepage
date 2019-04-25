@@ -34,5 +34,7 @@
     "serve": "gulp serve",
     "serve:dist": "gulp serve:dist"
   },
-  "dependencies": {}
+  "dependencies": {
+    "natives": "^1.1.6"
+  }
 }
